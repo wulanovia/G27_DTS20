@@ -16,8 +16,11 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  .container{
+    width: calc(100% - 12vw);
+    }
   .lesson {
-    width: 100%;
+    width: auto;
   }
   
   footer {
@@ -62,5 +65,31 @@
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .about-wrapper{
+    width: calc(100% - 10vw);
+  }
+
+  .container-about{
+    display: block;
+  }
+
+  .vector-pic{
+    width: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .content-right{
+    font-size: 20px;
+    padding: 0 10px 55px 0;
+    margin-top: 0;
+    margin-left: 35px;
+    text-align: justify;
+  } 
+
+  .lesson-wrapper{
+    width: auto;
   }
 }
