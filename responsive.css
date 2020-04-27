@@ -1,7 +1,7 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
   .lesson {
-    width: 50%;
+    
     margin-bottom: 50px;
   }
   
@@ -10,24 +10,24 @@
   }
   
   .heading h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  header{
+    width:100%;
+  }
   .lesson {
-    width: 100%;
+    width: auto;
   }
   
   footer {
     text-align: center;
   }
   
-  .btn {
-    width: 100%;
-  }
-
+  
   .btn:hover {
     opacity: 1;
   }
@@ -42,6 +42,13 @@
   
   .top-wrapper {
     text-align: left;
+    padding: 180px 0 100px 0;
+  background-image: url('https://raw.githubusercontent.com/elkar1m/G27_DTS20/master/header.png');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
   }
   
   /* Tambahkan CSS untuk header-right */
@@ -62,5 +69,51 @@
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .about-wrapper{
+    width: calc(100% - 10vw);
+  }
+
+  .container-about{
+    display: block;
+    position: relative;
+    bottom: 115px;
+  }
+
+  .vector-pic{
+    width: 260px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .message-wrapper{
+    position: relative;
+    top: 20px;
+  }
+
+  .content-right{
+    font-size: 20px;
+    padding: 0 10px 55px 0;
+    margin-top: 0;
+    margin-left: 35px;
+    text-align: justify;
+  } 
+
+  .lesson-wrapper{
+    width: auto;
+  }
+  .about-heading{
+    margin-left: calc(100% - 62vw);
+  }
+  .heading{
+    width: auto;
+  }
+
+  .content-left{
+    width: calc(100% - 1vw);
+  }
+
+  .question h3{
+    line-height: 1.5;
   }
 }

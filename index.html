@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
-  <body>
+  <body onload="getResolution()">
     <header>
       <div class="container">
         <div class="header-left">
@@ -26,71 +26,102 @@
     </header>
      <div class="top-wrapper">
       <div class="container">
-        <h1>TUGAS CODING.</h1>
-        <h1>PROJECT TIM G27 DTS20.</h1>
-        <p>Project ini dibuat guna untuk melengkapai tugas dari pelatihan DTS20 .</p>
-        <p>Kami dari TIM G27 yang beranggotakan 5 orang.</p>
-        <div class="btn-wrapper">
-          <a href="#" class="btn signup"><span class="fa fa-envelope"></span>Daftar dengan Email</a>
-          <p>atau</p>
-          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
-          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
-          <a href="#" class="btn instagram"><span class="fa fa-instagram"></span>Daftar dengan Instagram</a>
+          <h1>TUGAS CODING.</h1>
+          <h1>PROJECT TIM G27 DTS20.</h1>
+          <p>Project ini dibuat guna untuk melengkapai tugas dari pelatihan DTS20 .</p>
+          <p>Kami dari TIM G27 yang beranggotakan 5 orang.</p>
+          <div class="btn-wrapper">
+            <a href="#" class="btn signup"><span class="fa fa-envelope"></span>About DTS</a>
+            <a href="#" class="btn instagram"><span class="fa fa-instagram"></span>Our Team</a>
+          </div>
+      </div>
+    </div>
+    <div class="about-wrapper">
+      <div class="heading about-heading">
+        <h2>About <span id="black-heading">DTS</span></h2>
+      </div>
+      <div class="container-about">
+        <div class="content-left">
+          <img class="vector-pic"src="img/3704116.jpg" alt="">
+        </div>
+        <div class="content-right">
+          <p>
+            Digital Talent Scholarship 2020 adalah program beasiswa pelatihan intensif bagi 60.000 peserta yang bertujuan untuk meningkatkan keterampilan dan daya saing SDM bidang teknologi informasi dan komunikasi sebagai bagian dari program pembangunan prioritas nasional.
+          </p>
         </div>
       </div>
     </div>
+   
     <div class="lesson-wrapper">
       <div class="container">
         <div class="heading">
-          <h2>Berikut anggota dari Tim G27!</h2>
+          <h2>Our <span id="black-heading">Team</span></h2>
         </div>
         <div class="lessons">
           <div class="lesson">
             <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/html.png">
-               <p>HTML & CSS</p>
+              <img class="profile"src="img/WhatsApp Image 2020-04-24 at 10.54.11 AM.jpeg"/>
             </div>
-             <p class="text-contents">Bahasa yang digunakan untuk membuat dan mendesain tampilan situs web Anda. </p>
+            <p>Novia Ayu Wulandari</p>
+             <p class="text-contents">Mengikuti program DTS dari kominfo untuk mempelajari hal baru terutama berkaitan dengan pemrograman Web</p>
           </div>
           <div class="lesson">
             <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-              <p>jQuery</p>
+              <img class="profile" src="img/WhatsApp Image 2020-04-24 at 9.21.38 AM.jpeg">
             </div>
-            <p class="text-contents">Library JavaScript yang cepat, kaya akan fitur, dan mudah digunakan yang menangani animasi dan permintaan Ajax.</p>
+            <p>Muhlisin eL Karim</p>
+            <p class="text-contents">Belajar di Kominfo DTS guna untuk menambah kemampuan agar lebih bisa memahami lebih dalam mengenai HTML, CSS dan Javascript.</p>
           </div>
           <div class="lesson">
             <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/ruby.png">
-              <p>Ruby</p>
+              <img  class="profile" src="img/WhatsApp Image 2020-04-25 at 5.07.33 PM.jpeg">
+              
             </div>
-            <p class="text-contents">Bahasa dinamis, serba guna yang sederhana dan produktif. Ruby sering digunakan untuk membuat aplikasi web yang responsive.</p>
+            <p>Muhammad Yahyaa</p>
+            <p class="text-contents">mengikuti program DTS agar mengetahui dan memiliki kemampuan dasar dalam HTML, CSS, Javascript yang bisa dikembangkan.</p>
           </div>
           <div class="lesson">
             <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/php.png">
-              <p>PHP</p>
+              <img class="profile" src="img/WhatsApp Image 2020-04-25 at 5.19.30 PM.jpeg">
             </div>
+            <p>PHP</p>
             <p class="text-contents">Bahasa skrip open source yang dapat disematkan ke dalam HTML, dan cocok untuk pengembangan web.</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img class="profile" src="img/WhatsApp Image 2020-04-25 at 5.19.30 PM.jpeg">
+            </div>
+            <p>Nisrina Nurhasna</p>
+            <p class="text-contents">mengikuti program DTS dari kominfo agar memiliki kemampuan dasar pemograman web khususnya HTML, CSS, Javascript.</p>
           </div>
           <div class="clear"></div>
         </div>
       </div>
     </div>
+
     <div class="message-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Apakah anda siap untuk menjadi programer yang handal?</h2>
-          <h3>Ayo belajar coding, ayo belajar menjadi lebih kreatif!</h3>
+      <div class="container-about">
+        <div class="content-left">
+          <div class="question">
+            <h2>Apakah anda siap untuk menjadi programer yang handal?</h2>
+            <h3>Ayo belajar coding, ayo belajar menjadi lebih kreatif!</h3>
+            <span class="btn message">Mulai Belajar</span>
+          </div>
         </div>
-        <span class="btn message">Mulai Belajar</span>
+        <div class="content-right"> 
+          <img class="vector-pic"src="img/3411109.jpg" alt="">
+        </div>
+        
       </div>
     </div>
+
+
     <footer>
       <div class="container">
         <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
         <p>Learn to code, learn to be creative.</p>
       </div>
     </footer>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
