@@ -77,12 +77,18 @@
 
   .container-about{
     display: block;
+    position: relative;
+    bottom: 115px;
   }
 
   .vector-pic{
     width: 260px;
     margin-left: 20px;
     margin-right: 20px;
+  }
+  .message-wrapper{
+    position: relative;
+    top: 20px;
   }
 
   .content-right{
@@ -101,5 +107,13 @@
   }
   .heading{
     width: auto;
+  }
+
+  .content-left{
+    width: calc(100% - 1vw);
+  }
+
+  .question h3{
+    line-height: 1.5;
   }
 }
