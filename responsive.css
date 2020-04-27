@@ -77,6 +77,11 @@
 
   .container-about{
     display: block;
+   
+  }
+
+  .container-msg{
+    display: block;
     position: relative;
     bottom: 115px;
   }
